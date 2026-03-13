@@ -1,0 +1,28 @@
+cd %userprofile%
+cd Desktop
+ls
+dir
+dir /portfolio
+cd portfolio
+npm install express
+y
+npm init -y
+npm install express
+y
+npm cache clean --force
+npm init -y
+npm install express --verbose
+y
+npm config set dns-result-order ipv4first
+npm cache clean --force
+npm -v
+node -v
+npm install express
+npm install express --no-proxy --no-audit
+y
+npm config set maxsockets 3
+npm install express
+cd node_modules
+dir
+cd ..
+doskey /history > installation_steps.txt
