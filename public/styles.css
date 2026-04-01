@@ -1,3 +1,55 @@
+@font-face {
+    font-family: fontlight;
+    src: url(fonts/aqua.ttf);
+}
+
+@font-face {
+    font-family: ;
+    src: url(fonts/Los\ Andes\ \ Lota\ Grotesque\ Bold.otf);
+}
+
+@font-face {
+    font-family: ;
+    src: url(fonts/GetVoIP\ Grotesque.otf);
+}
+@font-face {
+    font-family: ;
+    src: url(fonts/Los\ Andes\ \ Lota\ Grotesque\ Black.otf);
+}
+
 body {
     background-color: rgb(104, 104, 32);
+    font-family: fontlight;
+}
+
+.navbar {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 62px;
+    z-index: 5;
+    background-color: #fff;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,0.2);
+}
+.name {
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    letter-spacing: 0.5px;
+}
+
+#bars {
+    color: #7f7d7a;
+    position: absolute;
+    top: 22px;
+    right: 21px;
+    font-size: 20px;
+
+}
+
+#bars:hover {
+    color: #adeadb;
 }
