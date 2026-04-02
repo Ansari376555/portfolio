@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: fontlight;
     src: url(fonts/aqua.ttf);
@@ -52,4 +53,157 @@ body {
 
 #bars:hover {
     color: #adeadb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    color: #333333;
+    background-color: #fff;
+}
+
+.grey-links {
+    background-color: #fafafa;
+    height: 192px;
+    padding-top: 55px;
+    padding-left: 8%;
+
+}
+.linkedin-block {
+    text-align: right;
+    background-color: #fff;
+    margin: auto;
+    height: 63px;
+    text-align: right;
+}
+
+#linkedin-logo {
+    color: #333333;
+    font-size: 20px;
+    padding: 28px;
+    padding-left: 40px;
+
+}
+#linkedin-logo:hover {
+    color: #adeadb;
+}   
+.pages {
+    text-transform: uppercase;
+    color: #36cdd6;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    line-height: 18px;
+
+}
+
+.grey-link {
+    color: #333333;
+    font-family: brandonLight;
+    font-weight: 400px;
+    font-size: 17px;
+    line-height: 36.5px;
+}
+
+.grey-link:hover {
+    color: #89dcd9;
+}
+/* --- CONTACT SECTION LAYOUT --- */
+.contact-container {
+    padding-top: 120px; /* Space for the fixed navbar */
+    padding-bottom: 80px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'fontlight', sans-serif;
+}
+
+.contact-title {
+    font-size: 42px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 2px solid #36cdd6; /* Adds a nice teal underline */
+    display: inline-block;
+    width: 100%;
+}
+
+/* --- THE FORM BOX --- */
+.contact-form {
+    background: rgba(255, 255, 255, 0.05); /* Subtle transparent background */
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Modern frosted-glass effect */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-label {
+    color: #adeadb; /* Light teal for readability */
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+/* --- INPUT FIELDS --- */
+.contact-form input[type="text"], 
+.contact-form input[type="email"], 
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    transition: all 0.3s ease;
+    box-sizing: border-box; /* Ensures padding doesn't break width */
+}
+
+/* Subtle glow when you click inside a box */
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(54, 205, 214, 0.5);
+}
+
+/* --- THE SUBMIT BUTTON --- */
+.contact-form input[type="submit"] {
+    background-color: #36cdd6;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px; /* Rounded pill shape */
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.2s, background-color 0.3s;
+    display: block;
+    width: 100%;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #2bbec7;
+    transform: translateY(-2px); /* Lifts up slightly on hover */
+}
+
+/* --- THANK YOU MESSAGE --- */
+#contact-thankyou {
+    margin-top: 25px;
+    color: #adeadb;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
 }
